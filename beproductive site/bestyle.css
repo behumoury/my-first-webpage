@@ -1,0 +1,143 @@
+#dmain{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    
+    padding-top: 0.1rem;
+    padding-right: 0.1rem;
+    padding-left: 10px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}   
+
+
+@keyframes heading{
+from{
+    color: white;
+
+
+}
+to{
+    color: coral;
+}
+
+
+}
+
+
+h1:hover{
+    animation-name: heading;
+    animation-duration: 2s;
+    color: coral;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: coral;
+    cursor: pointer;
+
+  }
+  
+  /* selected link */
+a:active {
+    color:white;
+  }
+
+
+#dend{
+    text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    display: flex; 
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+#dabout{
+    background-color: beige;
+    text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-emphasis: none;
+    padding: 2px;
+    border-radius: 1rem;
+    
+
+  
+}
+#btn{
+    border: 0px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: beige;
+
+}
+
+@keyframes example {
+    from {background-color: beige;
+    color: black;}
+    to {background-color: black;
+    color: beige;}
+  }
+
+#btn:hover{
+    cursor: pointer;
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: black;
+    color: beige;
+
+}
+
+#divd{
+    text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    background-color:beige;
+
+    padding: 1rem;
+    
+}
+input{
+   border-radius: 1rem;
+   padding: 4px;
+   padding-left: 10px;
+   border: 0px;
+   color: coral;
+   
+}
+
+#btn2{
+    border: 0px;
+    padding: 6px;
+    border-radius: 1rem;
+    background-color: black;
+    color: beige;
+}
